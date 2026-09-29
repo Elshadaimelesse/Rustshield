@@ -1,0 +1,24 @@
+title: Rapid TCP/UDP Port Scan Discovery
+id: RUSTSHIELD-DET-002
+status: production
+description: Identifies horizontal or vertical port sweeps probing multiple target services within a short sliding time window.
+author: RustShield Threat Research Team
+date: 2026/09/28
+severity: high
+logsource:
+  category: network
+  service: netflow
+detection:
+  selection:
+    category: network
+    action: flow_record
+  threshold: 5
+  timeframe_seconds: 30
+tags:
+  - attack.discovery
+  - attack.t1046
+mitre:
+  tactic: Discovery
+  technique: Network Service Discovery
+  id: T1046
+enabled: true

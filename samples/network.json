@@ -1,0 +1,9 @@
+[
+  { "src_ip": "172.16.80.50", "dst_ip": "10.0.0.15", "dst_port": 21, "protocol": "TCP", "flags": "SYN" },
+  { "src_ip": "172.16.80.50", "dst_ip": "10.0.0.15", "dst_port": 22, "protocol": "TCP", "flags": "SYN" },
+  { "src_ip": "172.16.80.50", "dst_ip": "10.0.0.15", "dst_port": 80, "protocol": "TCP", "flags": "SYN" },
+  { "src_ip": "172.16.80.50", "dst_ip": "10.0.0.15", "dst_port": 443, "protocol": "TCP", "flags": "SYN" },
+  { "src_ip": "172.16.80.50", "dst_ip": "10.0.0.15", "dst_port": 3389, "protocol": "TCP", "flags": "SYN" },
+  { "src_ip": "172.16.80.50", "dst_ip": "10.0.0.15", "dst_port": 8080, "protocol": "TCP", "flags": "SYN" },
+  { "src_ip": "10.0.0.15", "dst_ip": "198.51.100.42", "dst_port": 443, "protocol": "TCP", "flags": "PSH,ACK", "action": "c2_beacon_transmission" }
+]

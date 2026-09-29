@@ -1,0 +1,8 @@
+Sep 29 05:41:02 linux-srv-01 sshd[28411]: Failed password for invalid user admin from 192.168.1.105 port 49152 ssh2
+Sep 29 05:41:04 linux-srv-01 sshd[28413]: Failed password for invalid user root from 192.168.1.105 port 49153 ssh2
+Sep 29 05:41:06 linux-srv-01 sshd[28415]: Failed password for invalid user deploy from 192.168.1.105 port 49154 ssh2
+Sep 29 05:41:08 linux-srv-01 sshd[28417]: Failed password for invalid user test from 192.168.1.105 port 49155 ssh2
+Sep 29 05:41:10 linux-srv-01 sshd[28420]: Failed password for ubuntu from 192.168.1.105 port 49156 ssh2
+Sep 29 05:42:15 linux-srv-01 sshd[28450]: Accepted password for analyst from 10.0.4.12 port 51222 ssh2
+Sep 29 05:42:18 linux-srv-01 sudo: analyst : TTY=pts/0 ; PWD=/home/analyst ; USER=root ; COMMAND=/usr/bin/tail -f /var/log/auth.log
+Sep 29 05:45:01 linux-srv-01 sshd[28990]: Failed password for invalid user guest from 198.51.100.42 port 38412 ssh2

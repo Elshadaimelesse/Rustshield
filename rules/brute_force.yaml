@@ -1,0 +1,26 @@
+title: SSH and Authentication Brute Force Attempt
+id: RUSTSHIELD-DET-001
+status: production
+description: Detects repeated authentication failures from a single IP address indicative of credential spraying or brute force dictionary attacks.
+author: RustShield Threat Research Team
+date: 2026/09/28
+severity: high
+logsource:
+  category: auth
+  service: sshd
+detection:
+  selection:
+    category: auth
+    action: login_failed
+    status: failure
+  threshold: 4
+  timeframe_seconds: 60
+tags:
+  - attack.initial_access
+  - attack.credential_access
+  - attack.t1110
+mitre:
+  tactic: Credential Access
+  technique: Brute Force
+  id: T1110
+enabled: true
